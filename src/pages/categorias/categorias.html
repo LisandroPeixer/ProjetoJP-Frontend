@@ -14,8 +14,8 @@
   <ion-list>
       <button ion-item *ngFor="let item of items" (click)="showProdutos(item.id)">
         <ion-thumbnail item-start>
-        <img src="assets/imgs/logo.png" alt="logo">
-      </ion-thumbnail>
+          <img src="/assets/imgs/cat/cat\{{item.id}}.jpg">
+        </ion-thumbnail>
       <h2> {{ item.nome }} </h2>
     </button>
   </ion-list>
